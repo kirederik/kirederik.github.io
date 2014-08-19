@@ -1,0 +1,37 @@
+$dblue: #324C5D;
+$lblue: #46B19D;
+$yellow: #EFC94C;
+$orange: #e3793f;
+$red: #df494a;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 20px;
+}
+
+
+header {
+  max-height: 150px;
+  .photo {
+    h1 {
+      color: $dblue;
+    }
+    img {
+      max-height: 125px;
+      float: right;
+    }
+  }
+
+  .bio {
+    padding-left: 30px;
+    p {
+      font-size: 16px;
+      color: $dblue;
+    }
+  }
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
