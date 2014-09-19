@@ -241,3 +241,11 @@ footer {
 .i-did-not-supposed-to-say-that {
     text-decoration: line-through;
 }
+
+.special {
+    color: white;
+}
+
+.special:hover {
+    color: white;
+}
