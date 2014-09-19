@@ -18,7 +18,7 @@
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="font-mfizz/font-mfizz.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -37,23 +37,25 @@
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <li>
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="no-indent">
+                <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+                    <i class="fa fa-times"></i>
+                </a>
             </li>
             <li class="sidebar-brand">
-                <a href="#top">Start Bootstrap</a>
+                <a href="#top">Derik Evangelista</a>
             </li>
             <li>
                 <a href="#top">Home</a>
             </li>
             <li>
-                <a href="#about">About</a>
+                <a href="#about">About me</a>
             </li>
             <li>
-                <a href="#services">Services</a>
+                <a href="#services">My Skills</a>
             </li>
             <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">My Works</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -64,10 +66,10 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Derik Evangelista</h1>
+            <!--<h1>Derik Evangelista</h1>
             <h3>Developer from Curitiba, Brazil</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">About me</a>
+            <a href="#about" class="btn btn-dark btn-lg">About me</a>-->
         </div>
     </header>
 
@@ -102,9 +104,9 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-code fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Coding</strong>
                                 </h4>
@@ -114,9 +116,9 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa icon-shell fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa icon-shell fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Use a Terminal</strong>
                                 </h4>
@@ -138,9 +140,9 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github-alt fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-git fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Disaster Avoidance</strong>
                                 </h4>
@@ -152,57 +154,160 @@
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#skills">
+                        Details
+                    </button>
+                </div>
+            </div>
+            <div class="row collapse out" id="skills">
+               <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h3 class="text-center">Languages</h3>
+                            <ul>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-html fa-2x"></i> HTML5, CSS3, Javascript
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-java"></i> Java, Scala, PHP
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-c fa-2x"></i> C, C++
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-ruby fa-2x"></i> Ruby, Python
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="text-center">Frameworks</h3>
+                            <ul>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-nodejs fa-2x"></i> NodeJS, jQuery, AngularJS
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-scala"></i> Scalatra, Play and Grails
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-php"></i>CakePHP, Slim, Laravel
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-ruby-on-rails-alt fa-2x"></i> Ruby on Rails
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="text-center">Databases</h3>
+                            <ul>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-postgres-alt fa-2x"></i> Postgres (and PostGIS)
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="icon-mysql"></i> MySQL
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="text-center">Misc</h3>
+                            <ul>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="fa fa-linux fa-2x"></i> Linux
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="fa fa-github"></i> Git
+                                </li>
+                                <li class="font-mfizz-icon-block">
+                                    <i class="fa fa-flag"></i> Portuguese, English and French (Studying, <em>Niveau A1</em>)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+               </div>
+            </div>
+                
+
+                
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+    <!--<aside class="callout">
         <div class="text-vertical-center">
             <h1>Vertically Centered Text</h1>
         </div>
-    </aside>
+    </aside>-->
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                    <h2>My Work</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                    <img alt="Elephant Post" class="img-portfolio img-responsive" alt="My Elephant Post" src="img/work/elephant-cover.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                    <img class="img-portfolio img-responsive" alt="Portal do Amador - Simulados" src="img/work/portal1.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                    <img class="img-portfolio img-responsive" alt="Sisdagro" src="img/work/sisdagro.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                    <img class="img-portfolio img-responsive" alt="Centro Virtual" src="img/work/cv1.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" alt="Sinalmet" src="img/work/sinalmet2.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" alt="Diário da Ilha" src="img/work/diario.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" alt="Finance Java Applet" src="img/work/finance1.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" alt="Linear Function Java Applet" src="img/work/linear1.png">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <a target="_blank" href="https://github.com/kirederik" class="btn btn-dark">More stuff on Github</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -215,24 +320,75 @@
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                <div class="col-lg-8 text-center col-lg-offset-2">
+                    <h3>Find me at</h3>
+                    <hr class="small" />
+                    <div class="row">
+                        <div class="col-md-2 col-sm-3">
+                            <div class="service-item">
+                                <a target="_blank" class="network" href="http://twitter.com/kirederik">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x text-primary"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-3">
+                            <div class="service-item">
+                                <a target="_blank" class="network" href="https://www.facebook.com/kirederik">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x text-primary"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-3">
+                            <div class="service-item">
+                                <a href="www.linkedin.com/in/derikevangelista" target="_blank" class="network">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x text-primary"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-3">
+                            <div class="service-item">
+                                <a href="http://github.com/kirederik" target="_blank" class="network">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-github-alt fa-stack-1x text-primary"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-3">
+                            <div class="service-item">
+                                <a href="https://plus.google.com/u/0/+DerikEvangelista/posts" target="_blank" class="network">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-google-plus fa-stack-1x text-primary"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-3">
+                            <div class="service-item">
+                                <a href="http://www.reddit.com/user/kirederik" target="_blank" class="network">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-reddit fa-stack-1x text-primary"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
 
     <!-- Footer -->
     <footer>
@@ -244,7 +400,7 @@
                     <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:kirederik@gmail.com">kirederik@gmail.com</a>
                         </li>
                     </ul>
                     <br>
@@ -272,37 +428,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+    <!-- Custom Javascript -->
+    <script src="js/app.js"></script>
 
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
 
 </body>
 
